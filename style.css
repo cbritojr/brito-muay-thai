@@ -1,0 +1,105 @@
+.menu{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#direitos{
+    margin: auto;  
+}
+
+#bordado{
+    margin-left: 42%;
+    margin-right: 42%;
+}
+
+#vantagens{
+    align-items: center;
+    margin-left: 42%;
+}
+
+#video{
+    margin-left: 42%;
+    margin-right: 42%;
+}
+
+#pulse{
+    position: fixed;
+            top: 0;
+            right: 0;
+    margin-top: 200px;
+    margin-right: 5px;
+
+    display: block;
+    border: 3px solid #b1e61d;
+    width: 350px;
+    background-color: #9f9f9f;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    border: 2px solid greenyellow;
+    border-radius: 5px;
+    background-color: black;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+nav ul li a:hover{
+    background-color: #b1e61d;
+    color: #000000;
+    border-color: #9f9f9f;
+}
+
+table{
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0px;
+}
+
+table td{
+    border: 1px solid #606060;
+    padding: 10px;
+    text-align: right;
+    vertical-align: top;
+}
+
+table td.ce{
+    color: #000000;
+    background-color: #b1e61d;
+    vertical-align: top;
+    font-weight: bold;
+    text-align: right;
+}
+
+table td.cd{
+    background-color: #ebebeb;
+    text-align: left;
+}
+
+footer{
+    display: flex;
+}
